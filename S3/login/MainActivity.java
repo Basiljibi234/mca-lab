@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             messageTextView.setText("Username and Password are required");
         } else {
             // Dummy check: In a real app, you would check this against a database or server
-            if (username.equals("nirmal") && password.equals("123")) {
+            if (username.equals("basil") && password.equals("123")) {
                 messageTextView.setText("Login successful");
             } else {
                 messageTextView.setText("Invalid username or password");
